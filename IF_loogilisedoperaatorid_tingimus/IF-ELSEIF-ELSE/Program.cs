@@ -10,8 +10,6 @@
             //kui ta on lühem kui 2m, ütle tavaline kolge
             //kui ta on pikem kui 2m, ütle hiiglane
 
-            
-
             //küsi kasutajalt kui vana ta on
             //küsi kasutajalt praegust aastaarvu
             //lahuta aastast kasutaja vanus
