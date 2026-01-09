@@ -16,14 +16,14 @@
             //Console.WriteLine("Tsükkel lõppes");
 
             //Do-While 2.
-            string sõnum = "";
-            do
-            {
-                Console.WriteLine("Palun lisa järgamine sõnumi osa: ");
-                sõnum += Console.ReadLine();
-                Console.WriteLine(sõnum);
-            } while (sõnum.Length < 140);
-            Console.WriteLine("See sõnum enam twitterisse ei mahuks, kirjuta vähem fäm");
+            //string sõnum = "";
+            //do
+            //{
+            //    Console.WriteLine("Palun lisa järgamine sõnumi osa: ");
+            //    sõnum += Console.ReadLine();
+            //    Console.WriteLine(sõnum);
+            //} while (sõnum.Length < 140);
+            //Console.WriteLine("See sõnum enam twitterisse ei mahuks, kirjuta vähem fäm");
 
 
             //for 2.
