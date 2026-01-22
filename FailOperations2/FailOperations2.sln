@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailOperations2", "FailOperations2.csproj", "{12793E6C-D26D-45E2-ABB2-1B9771D30DDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12793E6C-D26D-45E2-ABB2-1B9771D30DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12793E6C-D26D-45E2-ABB2-1B9771D30DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12793E6C-D26D-45E2-ABB2-1B9771D30DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12793E6C-D26D-45E2-ABB2-1B9771D30DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3C4DE1F-D8B6-4C2B-A32D-06E6F393D560}
+	EndGlobalSection
+EndGlobal
