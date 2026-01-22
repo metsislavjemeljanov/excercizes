@@ -6,7 +6,7 @@ namespace Metods_2
     {
         static void Main(string[] args)
         {
-            float arv1 = 0;
+            sfloat arv1 = 0;
             float arv2 = 0;
             string tehtetüüp = "";
             string uusTehe = "Jah";
