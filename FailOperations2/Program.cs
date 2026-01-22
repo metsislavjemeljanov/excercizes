@@ -9,9 +9,31 @@ namespace FailOperations2
         {
             DisplayThisFile();
             FindWord("die");
-
+            /* Kirjuta mis meetod loeb kokku mitu korda mingi sõnad esineb, ning välja kuvatakse ainult kordade arv */
+            HowManyWord("die");
         }
 
+        private static void HowManyWord(string filter)
+        {
+            int countOfWord = 0;
+            using (StreamReader thisFile = new StreamReader("C:\\Users\\opilane\\source\\repos\\Metšislav jemeljanov\\excercizes\\FailOperations2\\laulusõnad.txt"))
+            {
+                
+                while (thisFile.EndOfStream == false)
+                while (thisFile.EndOfStream == false)
+                while (thisFile.EndOfStream == false)
+                {
+                    string thisLine = thisFile.ReadLine();
+                    
+                    if (thisLine.Contains(filter))
+                    {
+                       countOfWord++;
+                    }
+                }
+                thisFile.Close();
+            }
+            Console.WriteLine($"Sõna {filter} esines {countOfWord} korda");
+        }
         private static void FindWord(string filter)
         {
             using (StreamReader thisFile = new StreamReader("C:\\Users\\opilane\\source\\repos\\Metšislav jemeljanov\\excercizes\\FailOperations2\\laulusõnad.txt"))
